@@ -327,6 +327,7 @@ o.spec("ApplicationWindow Test", function () {
 			'F12',
 			'F5',
 			'Control+N',
+			'Control+0',
 			'F11',
 			'Alt+Right',
 			'Alt+Left',
@@ -349,6 +350,7 @@ o.spec("ApplicationWindow Test", function () {
 			'F12',
 			'F5',
 			'Control+N',
+			'Control+0',
 			'F11',
 			'Alt+Right',
 			'Alt+Left',
@@ -371,6 +373,7 @@ o.spec("ApplicationWindow Test", function () {
 			'F12',
 			'F5',
 			'Command+N',
+			'Command+0',
 			'Command+Control+F',
 		])
 	})

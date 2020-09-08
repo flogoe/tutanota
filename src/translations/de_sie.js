@@ -1183,6 +1183,7 @@ module.exports = {
 		"yourCalendars_label": "Deine Kalender",
 		"yourFolders_action": "Ihre ORDNER",
 		"yourMessage_label": "Ihre Nachricht",
-		"you_label": "Sie"
+		"you_label": "Sie",
+		"resetZoomFactor_action": "Zoomfaktor zurücksetzen"
 	}
 }
