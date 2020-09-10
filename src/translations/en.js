@@ -655,7 +655,6 @@ module.exports = {
 		"markUnread_action": "Mark unread",
 		"matchCase_alt": "Match case",
 		"maybe_label": "Maybe",
-		"mayNotWorkForAllDe_msg": "This may not work for all Linux desktop environments.",
 		"mergeAllSelectedContacts_msg": "Are you sure you want to merge the selected contacts?",
 		"mergeContacts_action": "Merge contacts",
 		"merge_action": "Merge",
@@ -920,7 +919,6 @@ module.exports = {
 		"retry_action": "Try again",
 		"richText_label": "Rich text",
 		"role_placeholder": "Role",
-		"runAsTrayApp_action": "Run as tray app",
 		"runOnStartup_action": "Run on startup",
 		"saveAll_action": "Save all",
 		"saveDownloadNotPossibleIe_msg": "The mobile Internet Explorer does not support saving or displaying attachments. Please use a desktop browser for these features.",
@@ -1014,7 +1012,6 @@ module.exports = {
 		"showMore_action": "SHOW MORE",
 		"showRejectReason_action": "Show reject reason",
 		"showRichTextToolbar_action": "Show formatting tools",
-		"showTrayIcon_action": "Show tray icon",
 		"showURL_alt": "Open link",
 		"show_action": "Show",
 		"signedOn_msg": "Signed on {date}.",
@@ -1181,6 +1178,8 @@ module.exports = {
 		"yourCalendars_label": "Your calendars",
 		"yourFolders_action": "YOUR FOLDERS",
 		"yourMessage_label": "Your message",
-		"you_label": "You"
+		"you_label": "You",
+		"runInBackground_action": "Run in background",
+		"runInBackground_msg": "Receive Notifications while logged out and manage windows from the tray.",
 	}
 }

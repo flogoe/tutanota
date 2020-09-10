@@ -766,21 +766,6 @@ o.spec("IPC tests", () => {
 		}, 10)
 	})
 
-	o("closeApp", done => {
-		const {electronMock} = setUpWithWindowAndInit()
-
-		electronMock.ipcMain.callbacks["42"]({}, JSON.stringify({
-			type: "closeApp",
-			id: "id2",
-			args: []
-		}))
-
-		setTimeout(() => {
-			o(electronMock.app.quit.callCount).equals(1)
-			done()
-		}, 10)
-	})
-
 	o("open", done => {
 		const {electronMock, dlMock} = setUpWithWindowAndInit()
 

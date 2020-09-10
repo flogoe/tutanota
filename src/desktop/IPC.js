@@ -1,5 +1,5 @@
 // @flow
-import {app, dialog, ipcMain} from 'electron'
+import {dialog, ipcMain} from 'electron'
 import {lang} from "../misc/LanguageViewModel"
 import type {WindowManager} from "./DesktopWindowManager.js"
 import {err} from './DesktopErrorHandler.js'
@@ -143,9 +143,6 @@ export class IPC {
 				return this._conf.setDesktopConfig('any', args[0])
 			case 'openNewWindow':
 				this._wm.newWindow(true)
-				return Promise.resolve()
-			case 'closeApp':
-				app.quit()
 				return Promise.resolve()
 			case 'showWindow':
 				return this.initialized(windowId).then(() => {

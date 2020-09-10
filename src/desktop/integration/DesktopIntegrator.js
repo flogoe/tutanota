@@ -1,5 +1,7 @@
 // @flow
 
+import type {WindowManager} from "../DesktopWindowManager"
+
 let platformIntegrator: {
 	enableAutoLaunch: ()=>Promise<void>,
 	disableAutoLaunch: ()=>Promise<void>,
@@ -43,8 +45,8 @@ export function isAutoLaunchEnabled(): Promise<boolean> {
 	})
 }
 
-export function runIntegration(): Promise<void> {
-	return platformIntegrator.runIntegration()
+export function runIntegration(wm: WindowManager): Promise<void> {
+	return platformIntegrator.runIntegration(wm)
 }
 
 export function isIntegrated(): Promise<boolean> {
